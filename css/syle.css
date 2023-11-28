@@ -1,0 +1,40 @@
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* UTILS */
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* HEADER */
+
+.header {
+  background-color: #ff6800;
+  min-height: 100px;
+}
+
+/* MAIN */
+
+main {
+  /* debug */
+  min-height: 600px;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #1a1a1a;
+  min-height: 100px;
+}
