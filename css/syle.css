@@ -51,6 +51,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 
   min-height: 100px;
 }
@@ -62,6 +63,7 @@ body {
 
 .header-logo {
   max-width: 20%;
+  min-width: 200px;
 
   text-align: center;
 }
@@ -134,7 +136,7 @@ body {
 
 .card-title {
   font-size: 1rem;
-  margin-bottom: 5px;
+  margin: 2px 0;
 }
 
 .card-discount-price,
