@@ -114,9 +114,22 @@ body {
 
 /* CARD CONTENT */
 
-.card-image {
+.card-image,
+.card-image-hover {
   height: 90%;
   margin-bottom: 5px;
+}
+
+.card-image-hover {
+  display: none;
+}
+
+.card:hover > .card-image-hover {
+  display: block;
+}
+
+.card:hover > .card-image {
+  display: none;
 }
 
 .card-brand-name {
