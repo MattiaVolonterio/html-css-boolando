@@ -53,10 +53,6 @@ body {
   align-items: center;
 
   min-height: 100px;
-
-  /* debug */
-  /* background-color: aqua;
-  border: 1px dashed black; */
 }
 
 .header-button,
@@ -138,6 +134,7 @@ body {
 
 .card-title {
   font-size: 1rem;
+  margin-bottom: 5px;
 }
 
 .card-discount-price,
@@ -207,6 +204,10 @@ body {
   background-color: white;
 
   font-size: 3rem;
+}
+
+.card-like:hover {
+  color: red;
 }
 
 /* FOOTER */
