@@ -80,10 +80,13 @@ body {
 
 .header-nav > ul > li {
   padding-right: 10px;
+  font-weight: 600;
 }
 
 .header-button > ul > li {
-  padding-left: 10px;
+  padding-left: 5px;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 /* MAIN */
@@ -210,14 +213,20 @@ body {
 
 .footer-left > h1 {
   font-size: 1.2rem;
+  margin-bottom: 10px;
 }
 
 .footer-right > h3 {
   font-size: 1rem;
+  margin-bottom: 10px;
 }
 
-.footer-list-link {
-  font-size: 1rem;
-  line-height: 2rem;
+.footer-left > ul > li {
   padding-right: 10px;
+}
+
+.footer-right > ul > li {
+  padding-left: 5px;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
