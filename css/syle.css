@@ -37,6 +37,8 @@ body {
 
   position: sticky;
   top: 0;
+
+  z-index: 1;
 }
 
 .header-container {
@@ -90,6 +92,8 @@ main {
   min-height: 600px;
 }
 
+/* CARD */
+
 .card-container {
   display: flex;
   flex-wrap: wrap;
@@ -101,12 +105,83 @@ main {
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
   width: calc(100% / 3 - 20px);
   min-width: 400px;
 
+  position: relative;
+
   /* debug */
   background-color: grey;
-  height: 600px;
+  min-height: 600px;
+}
+
+/* CARD CONTENT */
+
+.card-image {
+  height: 90%;
+  margin-bottom: 5px;
+}
+
+.card-brand-name {
+  /* color: grey; */
+}
+
+.card-title {
+  font-size: 1rem;
+}
+
+.card-discount-price,
+.card-real-price {
+  font-size: 0.9rem;
+}
+
+.card-discount-price {
+  color: red;
+}
+
+.card-real-price {
+  /* color: grey; */
+  text-decoration: line-through;
+}
+
+.card-banner {
+  position: absolute;
+  left: 0;
+  bottom: 15%;
+
+  color: white;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.banner-left,
+.banner-right {
+  padding: 5px 8px;
+}
+
+.banner-left {
+  background-color: red;
+}
+
+.banner-right {
+  background-color: green;
+}
+
+.card-like {
+  position: absolute;
+  right: 0;
+  top: 5%;
+
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+
+  background-color: white;
+
+  font-size: 3rem;
 }
 
 /* FOOTER */
