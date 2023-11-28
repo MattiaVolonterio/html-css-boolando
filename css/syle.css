@@ -87,11 +87,6 @@ body {
 
 /* MAIN */
 
-main {
-  /* debug */
-  min-height: 600px;
-}
-
 /* CARD */
 
 .card-container {
@@ -111,10 +106,6 @@ main {
   min-width: 400px;
 
   position: relative;
-
-  /* debug */
-  background-color: grey;
-  min-height: 600px;
 }
 
 /* CARD CONTENT */
@@ -125,7 +116,7 @@ main {
 }
 
 .card-brand-name {
-  /* color: grey; */
+  color: grey;
 }
 
 .card-title {
@@ -142,7 +133,7 @@ main {
 }
 
 .card-real-price {
-  /* color: grey; */
+  color: grey;
   text-decoration: line-through;
 }
 
@@ -167,6 +158,23 @@ main {
 
 .banner-right {
   background-color: green;
+}
+
+.only-left-banner > .banner-right {
+  display: none;
+}
+
+.only-right-banner > .banner-left {
+  display: none;
+}
+
+.none-banner > .banner-left,
+.none-banner > .banner-right {
+  display: none;
+}
+
+.no-discount > .card-real-price {
+  display: none;
 }
 
 .card-like {
