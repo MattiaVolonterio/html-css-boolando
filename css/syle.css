@@ -30,6 +30,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.header-list-link,
+.footer-list-link {
+  color: white;
+  text-decoration: none;
+}
+
 /* HEADER */
 
 .header {
@@ -78,11 +84,6 @@ body {
 
 .header-button > ul > li {
   padding-left: 10px;
-}
-
-.header-list-link {
-  color: white;
-  text-decoration: none;
 }
 
 /* MAIN */
@@ -196,5 +197,27 @@ body {
 
 .footer {
   background-color: #1a1a1a;
+  color: white;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
   min-height: 100px;
+}
+
+.footer-left > h1 {
+  font-size: 1.2rem;
+}
+
+.footer-right > h3 {
+  font-size: 1rem;
+}
+
+.footer-list-link {
+  font-size: 1rem;
+  line-height: 2rem;
+  padding-right: 10px;
 }
